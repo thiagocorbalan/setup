@@ -4,20 +4,20 @@
 		"jest": true,
 		"node": true
 	},
-    "extends": [
-        "standard"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaVersion": 11,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": {
-        "semi": ["error", "always"],
+	"extends": [
+		"standard"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 11,
+		"sourceType": "module"
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {
+		"semi": ["error", "always"],
 		"indent": ["error", "tab"],
-        "no-tabs": "off"
-    }
+		"no-tabs": "off"
+	}
 }

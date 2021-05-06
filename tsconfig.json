@@ -24,5 +24,8 @@
 			"@views/*": ["./src/views/*"],
 			"@configs/*": ["./src/configs/*"]
 		}
-	}
+	},
+	"include": [
+		"src/**/*"
+	]
 }

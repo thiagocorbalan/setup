@@ -9,3 +9,4 @@
 9. `yarn add tsconfig-paths -D`
 10. `yarn add eslint -D && yarn eslint --init`
 11. `yarn add jest ts-jest @types/jest -D && yarn jest --init`
+12. `yarn add -D @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver`
