@@ -1,18 +1,18 @@
 {
-  "name": "setup",
+  "name": "node-setup",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Tech <tech@elo7.com>",
+  "author": "Thiago Corbalan <contato.twebdesigner@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
-    "start": "node dist/server.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
+    "start": "node dist/server.js",
     "test": "jest"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'teste'"
+      "pre-commit": "yarn test"
     }
   },
   "devDependencies": {
@@ -39,9 +39,6 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "global": "^4.4.0",
-    "tsc": "^1.20150623.0",
-    "tsc-init": "^2.1.0"
+    "express": "^4.17.1"
   }
 }
